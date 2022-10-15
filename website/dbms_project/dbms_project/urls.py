@@ -20,5 +20,4 @@ from lost_and_found.views import index
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('lost_and_found/', index)
 ]
